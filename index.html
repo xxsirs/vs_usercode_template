@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VScode代码生成器</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <div id="con">
+            <div class="head">
+                <h1>VScode用户代码片段生成</h1>                   
+            </div>
+            <div class="content">
+                <div class="set">
+                    <div class="set_list name">
+                        <span class="title">名称：</span>
+                        <input type="text">
+                    </div>
+                    <div class="set_list prefix">
+                        <span class="title">简写：</span>
+                        <input type="text">
+                    </div>
+                    <div class="con">
+                        <textarea id="user_code" cols="65" rows="25" placeholder="请将快速生成的代码粘贴到此处"></textarea>
+                    </div>
+                    <div class="tips">使用方法：配置全局变量后，直接使用自定义名+tab即可快速生成代码片段！</div>
+                </div>
+                <div class="result">
+                    <textarea id="snippet_result" cols="65" rows="30"></textarea>
+                    <div>
+                        <button class="copy">复制</button>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+    </div>
+    
+</body>
+</html>
