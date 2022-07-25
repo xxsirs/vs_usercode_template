@@ -4,6 +4,6 @@
 使用方法：https://www.xxsirs.top/index.php/2022/07/21/vs-usercode/
 
 
-It is used to quickly generate vscode code fragments (similar to using! +tab to quickly generate HTML template framework!)<br>
+It is used to quickly generate vscode code fragments (similar to using"!+tab" to quickly generate HTML template framework!)<br>
 Effect display: https://www.xxsirs.top/usercode/index.html<br>
 usage method: https://www.xxsirs.top/index.php/2022/07/21/vs-usercode/<br>
